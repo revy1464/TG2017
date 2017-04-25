@@ -1,0 +1,8 @@
+controlador_index:
+    path: /Usuarios/index
+    defaults: {_controller: AppBundle:Usuarios:index}
+    
+controlador_add:
+    path: /Usuarios/addPerfil
+    defaults: {_controller: AppBundle:Usuarios:addPerfil}
+    
